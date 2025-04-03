@@ -1,13 +1,47 @@
 /* CSS Document */
 .root {
-    background-color: #1A1423;
-    opacity: 0.9;
-}
-
-.textcolor {
-    color: #BC96E6;
+  background-color: #1a1423;
+  color: #bc96e6;
 }
 
 .texteffectcolor {
-    color: #0AFFED;
+  color: #0affed;
+}
+
+/* Navbar styles */
+
+/* Override link colors */
+.navbar-nav .nav-link,
+.navbar-nav .nav-item .dropdown-toggle {
+  color: #bc96e6; 
+}
+
+/* Override active link color */
+.navbar-nav .nav-link.active {
+  color: #0affed; 
+}
+
+/* hover styles */
+.navbar-nav .nav-link:hover {
+  color: #0affed;
+}
+
+/* Navbar background change */
+.navbar {
+  background-color: #1a1423;
+  filter: brightness(175%);
+  
+}
+
+.dropdown-menu {
+    background-color: #1a1423; 
+    filter: brightness(175%);
+    border: #0affed 1px solid;
+}
+.dropdown-menu .dropdown-item {
+    color: #bc96e6 ; 
+}
+.dropdown-menu .dropdown-item:hover {
+    color: #0affed; 
+    background-color: #1a1423; 
 }

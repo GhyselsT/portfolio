@@ -23,27 +23,30 @@
       crossorigin="anonymous"
       defer
     ></script>
-
-  
   </head>
-  <body class="root textcolor">
-    <nav class="navbar navbar-expand-lg justify-content-between row" >
+  <body class="root container-fluid">
+    <header class="px-4 py-2">
+      <nav class="navbar navbar-expand-lg justify-content-between row">
         <img src="/assets/icons/LOGO.png" alt="Logo portfolio" style="width: auto; height: 50px" class="col-6 text-start"/>
+  
         <ul class="navbar-nav col-6 justify-content-beginning">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="detailPagina.html">Detail pagina</a>
+          <li class="nav-item mx-3">
+            <a class="nav-link active fs-5" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="webwizz.html">WebWizz</a>
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle fs-5" href="detailPagina.html" role="button" data-bs-toggle="dropdown">
+              Projecten
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="webwizz.html">WebWizz</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+  
+          <li class="nav-item mx-4">
+            <a class="nav-link fs-5" href="contact.html">Contact</a>
           </li>
         </ul>
-    </nav>
-    <header>
+      </nav>
       <h1>Systeem- & netwerkbeheerder</h1>
     </header>
     <nav></nav>
