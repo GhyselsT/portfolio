@@ -16,6 +16,15 @@
   background-color: #1a1423;
   filter: brightness(175%);
 }
+/* this just hides my title it is still there but not visible in any way or shape */
+
+.hiddenTitle{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  left: -10000px;
+}
 
 /* Navbar styles */
 
