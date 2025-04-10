@@ -12,6 +12,11 @@
   color: #0affed;
 }
 
+.footerColor{
+  background-color: #1a1423;
+  filter: brightness(175%);
+}
+
 /* Navbar styles */
 
 /* Override link colors */
