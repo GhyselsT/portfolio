@@ -2,23 +2,26 @@
 .root {
   background-color: #1a1423;
   color: #bc96e6;
+  font-family: "spacegrotesk", sans-serif;
 }
 
 .texteffectcolor {
   color: #0affed;
 }
 
-.logoColor{
+.logoColor {
   color: #0affed;
 }
 
-.footerColor{
+
+.footerColor {
   background-color: #1a1423;
   filter: brightness(175%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /* this just hides my title it is still there but not visible in any way or shape */
 
-.hiddenTitle{
+.hiddenTitle {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -31,12 +34,12 @@
 /* Override link colors */
 .navbar-nav .nav-link,
 .navbar-nav .nav-item .dropdown-toggle {
-  color: #bc96e6; 
+  color: #bc96e6;
 }
 
 /* Override active link color */
 .navbar-nav .nav-link.active {
-  color: #0affed; 
+  color: #0affed;
 }
 
 /* hover styles */
@@ -48,18 +51,26 @@
 .navbar {
   background-color: #1a1423;
   filter: brightness(175%);
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-menu {
-    background-color: #1a1423; 
-    filter: brightness(175%);
-    border: #0affed 1px solid;
+  background-color: #1a1423;
+  filter: brightness(175%);
+  border: #0affed 1px solid;
 }
 .dropdown-menu .dropdown-item {
-    color: #bc96e6 ; 
+  color: #bc96e6;
 }
 .dropdown-menu .dropdown-item:hover {
-    color: #0affed; 
-    background-color: #1a1423; 
+  color: #0affed;
+  background-color: #1a1423;
+}
+
+
+.backgroundColor {
+  background-color: #1a1423;
+  filter: brightness(175%);
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
 }
