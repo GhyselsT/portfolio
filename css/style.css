@@ -57,6 +57,7 @@
   background-color: #1a1423;
   filter: brightness(175%);
   border: #0affed 1px solid;
+  z-index: 1;
 }
 .dropdown-menu .dropdown-item {
   color: #bc96e6;
@@ -69,8 +70,7 @@
 .backgroundColor {
   background: linear-gradient(to bottom right, #1a1423,#3b2d50,#5e4b8b);
   box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
-  border-radius: 20px;
-  z-index: -1;
+  border-radius: 20px;;
 }
 
 
