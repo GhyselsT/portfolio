@@ -60,23 +60,25 @@
         <h2 class="h1 py-4">Send me a message</h2>
         <section class="text-start px-4 py-2 position-relative">
             <form action="#" method="POST" class="from" >
-                <div class="mb-3">
-                    <label for="name" class="form-label">Naam</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required />
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="John.Doe@gmail.com" required />
-                </div>
-                <div class="mb-3">
-                    <label for="telefoon" class="form-label">Telefoon Nummer</label>
-                    <input type="tel" class="form-control" id="phone" name="telefoon" pattern="\+324[0-9]{8}" placeholder="+32412345678" required />
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Bericht</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Verstuur</button>
+              <fieldset class="border my-2 p-4 rounded-3">
+          
+                <label for="name" class="form-label">Naam:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required />
+          
+          
+                <label for="email" class="form-label pt-3">E-mail:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="John.Doe@gmail.com" required />
+      
+    
+                <label for="telefoon" class="form-label pt-3">Telefoon Nummer:</label>
+                <input type="tel" class="form-control" id="phone" name="telefoon" pattern="\+324[0-9]{8}" placeholder="+32412345678" required />
+        
+
+                <label for="message" class="form-label pt-3">Bericht:</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+  
+                <button type="submit" class="btn btn-primary mt-3">Verstuur</button>
+              </fieldset>
             </form>
         </section>
     </main>
