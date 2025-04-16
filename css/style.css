@@ -98,3 +98,9 @@
   margin-bottom: 0;
   border-radius: var(--bs-list-group-border-radius);
 }
+
+
+.list-style-disc {
+  list-style-type: disc;
+  margin-left: 1rem;
+}

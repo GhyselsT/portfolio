@@ -1,21 +1,123 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projectend detail pagina</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebWizz</title>
+    <link rel="website icon" type="png" href="assets/icons/LOGO.png">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- JavaScript: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
-</head>
-<body>
-    <header></header>
-    <nav></nav>
-    <main></main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body class="root">
+
+    <header class="container-fluid px-4 py-2">
+      <nav class="navbar navbar-expand-lg justify-content-between row">
+        <img src="/assets/icons/LOGO.png" alt="Logo portfolio" style="width: auto; height: 50px" class="col-6 text-start"/>
+  
+        <ul class="navbar-nav col-md-6 justify-content-beginning flex-row">
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-5" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle active fs-5" href="#" role="button" data-bs-toggle="dropdown">
+              Projecten
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="detailPagina.html">Alle projecten</a></li>
+              <li><a class="dropdown-item active" href="#">WebWizz</a></li>
+            </ul>
+          </li>
+  
+          <li class="nav-item mx-4">
+            <a class="nav-link fs-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="hiddenTitle">Systeem- & Netwerkbeheerder</h1>
+    </header>
+
+    <main class="container-fluid py-4">
+        <h2 class="h1 pb-4 text-center">WebWizz</h2>
+        <div class="row">
+            <!--left column-->
+            <section class="col-6 col-md-6 text-start">
+                <h2>💻 Project: Gestructureerd Netwerkontwerp voor Webwiz</h2>
+                <p>
+                    Voor het vak <strong>Datacom & Netwerken</strong> kreeg ik samen met een medestudent de opdracht om een
+                    <strong>gestructureerd netwerk</strong> uit te tekenen voor het bedrijf <em>Webwiz</em>. De eerdere netwerkaanpak
+                    van het bedrijf was chaotisch en ongestructureerd, wat leidde tot praktische problemen zoals slechte wifi-dekking,
+                    onveilige kabelbeheer, en moeilijkheden bij het opsporen van netwerkproblemen.
+                </p>
+                <section class="backgroundColor p-4 rounded-3">
+                <h3 class="pt-4">🛠️ Onze taak bestond uit:</h3>
+                <ul class="list-group border-0">
+                    <li class="list-group-item border-0">Een <strong>volledig gestructureerd bekabelingsplan</strong> ontwerpen dat voldoet aan de eisen van een modern bedrijfsnetwerk.</li>
+                    <li class="list-group-item border-0">Rekening houden met zaken zoals:
+                        <ul class="ps-4">
+                            <li class="list-style-disc">24 werkplekken verdeeld over 2 verdiepingen en 6 kantoren</li>
+                            <li class="list-style-disc">VoIP-telefonie per werkplek</li>
+                            <li class="list-style-disc">Flexibele laptops met wifi-dekking</li>
+                            <li class="list-style-disc">2 on-premises servers in een afgesloten ruimte</li>
+                            <li class="list-style-disc">MFP's (printers/scanners) in elk kantoor</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item border-0"><strong>Realistische scenario's oplossen</strong>, zoals het snel aansluiten van nieuwe medewerkers of het toevoegen van extra wifi-punten.</li>
+                </ul>
+                </section>
+            </section>
+
+
+            <!--right column-->
+            <section class="col-6 col-md-6 text-start">
+                <section class="backgroundColor p-4 rounded-3">
+                <h3>📦 Opgeleverde documenten:</h3>
+                <ol>
+                    <li><strong>Aankooplijst:</strong> Gedetailleerde lijst van alle benodigde hardware (kabels, patchpanelen, switchen, racks, enz.) met prijzen en datasheets.</li>
+                    <li><strong>Bekabelingsplan (Packet Tracer):</strong> Visueel schema van het netwerk met correcte bend points en positionering van apparaten.</li>
+                    <li><strong>Rack Layout:</strong> Visueel overzicht van hoe de actieve netwerkcomponenten in het rack geplaatst worden en hoeveel U ze innemen.</li>
+                    <li><strong>Patchplan:</strong> Overzichtstabel met alle connecties tussen patchpanelen, switchpoorten, outlets en netwerkapparatuur.</li>
+                </ol>
+                </section>
+                <h3 class="pt-4">🎯 Doel:</h3>
+                    <p>
+                        Een toekomstgericht netwerk uittekenen dat schaalbaar, overzichtelijk en onderhoudsvriendelijk is —
+                        volledig volgens de principes van gestructureerd bekabelen.
+                    </p>
+            </section>
+        </div>
+    </main>
+
+    
     <aside></aside>
-    <footer></footer>
-</body>
+
+    <footer class="container-fluid px-4 justify-content-between row footerColor">
+      <img src="/assets/icons/LOGO.png" alt="Logo portfolio" style="width: auto; height: 50px" class="col-4 col-md-9 text-start my-2"/>
+
+      <section class="col-3 col-md-3 justify-content-beginning my-2">
+      <a href="https://www.linkedin.com/in/thomas-ghysels-8380b134a/" class="logoColor fs-4 mx-1"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.facebook.com/pizzadoosvanristorante" class="logoColor fs-4 mx-1"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/ghyselst/" class="logoColor fs-4 mx-1"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/GhyselsT" class="logoColor fs-4 mx-1"><i class="bi bi-github"></i></a>
+      </section>
+    </footer>
+  </body>
 </html>
