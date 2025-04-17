@@ -18,6 +18,7 @@
   filter: brightness(175%);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 /* this just hides my title it is still there but not visible in any way or shape */
 
 .hiddenTitle {
