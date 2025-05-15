@@ -71,7 +71,7 @@
     <main class="px-4 py-2 col-12 col-md-8 text-center backgroundColor">
         <h2 class="h1 py-4">Stel mij een vraag</h2>
         <section class="text-start px-4 py-2 position-relative">
-            <form action="#" method="POST" data-netlify="true" data-netlify-recaptcha="true"  class="from" >
+            <form action="#" method="POST" netlify data-netlify-recaptcha="true"  class="from" >
               <fieldset class="border my-2 p-4 rounded-3">
           
                 <label for="name" class="form-label">naam *</label>
@@ -88,7 +88,8 @@
 
                 <label for="message" class="form-label pt-3">bericht *</label>
                 <textarea class="form-control" id="message" rows="4" required></textarea>
-                <div class="form-group">
+
+                <div class="form-group pt-3">
                   <div data-netlify-recaptcha="true"></div>
                 </div>
   
