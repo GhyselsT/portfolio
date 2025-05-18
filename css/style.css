@@ -118,12 +118,12 @@
 /* hide aside on mobile */
 
 @media (max-width: 768px) {
-  .page-webizz aside,
+  .page-webwizz aside,
   .page-detailpagina aside,
   .page-contact aside {
     display: none;
   }
-  .page-webizz main,
+  .page-webwizz main,
   .page-detailpagina main,
   .page-contact main {
     width: 100%;
