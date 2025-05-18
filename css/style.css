@@ -114,3 +114,18 @@
   height: 400px;
   border-radius: 20px;
 }
+
+/* hide aside on mobile */
+
+@media (max-width: 768px) {
+  .page-webizz aside,
+  .page-detailpagina aside,
+  .page-contact aside {
+    display: none;
+  }
+  .page-webizz main,
+  .page-detailpagina main,
+  .page-contact main {
+    width: 100%;
+  }
+}
